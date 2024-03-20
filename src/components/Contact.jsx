@@ -32,6 +32,7 @@ const Contact = () => {
   return (
     <StyledContactForm>
       <form ref={form} onSubmit={sendEmail}>
+        <p>Contact Us</p>
         <label>Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>
@@ -48,13 +49,27 @@ export default Contact;
 
 // Styles
 const StyledContactForm = styled.div`
-  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make the form take up the full viewport height */
 
   form {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    transition: border-color 0.3s ease-in-out; /* Add transition effect for hover */
+
+    &:hover {
+      border-color: rgba(0, 0, 0, 0.5); /* Change border color on hover */
+    }
+
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 100%;
     font-size: 16px;
 
     input {
