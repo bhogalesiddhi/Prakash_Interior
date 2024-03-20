@@ -32,7 +32,8 @@ const Navbar = () => {
         <Logo src="/path/to/your/logo-white.png" alt="Logo" />
       </div>
       <NavLinks>
-        <NavLink href="/services">Services</NavLink>
+        <NavLink href="/">Home</NavLink>
+        <NavLink href="/services">Our Work</NavLink>
         <NavLink href="/contact">Contact Us</NavLink>
       </NavLinks>
     </NavbarContainer>
