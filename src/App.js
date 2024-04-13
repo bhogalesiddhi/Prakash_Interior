@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import AddReview from "./components/AddReview.jsx";
+// import AddReview from "./components/AddReview.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";

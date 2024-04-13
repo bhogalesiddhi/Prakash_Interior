@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #ded5cc;
+  color: #50433c;
+  height: 300px;
+}
+
+.connect_with_us {
+  flex: 1;
+  margin: 90px;
+  padding-left: 30px;
+}
+
+.connect_with_us h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a {
+  color: #50433c;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.company,
+.support {
+  flex: 1;
+  margin: 60px 0px 60px 60px;
+}
+
+.company h3,
+.support h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 7px;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #ffd700;
+}

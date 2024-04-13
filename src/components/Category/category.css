@@ -1,0 +1,39 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+}
+.main_category {
+  display: flex;
+  margin: 60px;
+  justify-content: space-between;
+  padding: 0px 70px;
+  text-align: center;
+}
+.categories {
+  padding: 40px;
+  margin-right: 20px;
+  line-height: 1.4;
+  background-color: #ded5cc;
+  border-radius: 15px;
+}
+.categoryIcon {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: auto;
+}
+.category_title {
+  margin: 20px 0px;
+}
+.heading {
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
