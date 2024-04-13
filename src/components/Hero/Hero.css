@@ -44,3 +44,23 @@
     color: #50433c;
     font-size: 20px;
 }
+
+.heroImage {
+    position: absolute;
+    right: 23%;
+    top: 54%;
+    transform: translateY(-50%);
+    width: 300px; 
+    /* Adjust the width */
+    height: auto; /* Maintains aspect ratio */
+    border: 10px solid white;
+}
+
+.heroImage2{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 6%;
+    top: 54%;
+    width: 250px; 
+    border: 10px solid white;
+}
