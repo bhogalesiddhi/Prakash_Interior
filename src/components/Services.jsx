@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Services.css"; // Import your CSS file
+import NewNavbar from "./NewNavbar/NewNavbar";
 
 function Services() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -14,7 +15,8 @@ function Services() {
 
   return (
     <div className="services-container">
-      <h2>Our Work</h2>
+      <NewNavbar />
+      <h2 className="serviceHeading">Our Work</h2>
 
       {/* Display all services and images */}
       <div className="services">
