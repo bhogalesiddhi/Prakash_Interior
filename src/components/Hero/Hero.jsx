@@ -13,7 +13,11 @@ const Hero = () => {
     <div className='mainContainer'>
         <div className='leftSide'>
         <div className='quoteSection '>
+          <div className='stars'>
+          <span>★★★★</span>
+          </div>
             <div className='quoteSection1 quote quote1'>
+            
             <span>ELEGANT</span>
             <span>INTERIORS</span>
             </div>

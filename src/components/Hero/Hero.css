@@ -42,8 +42,17 @@
 .quoteSection2 span {
   color: #50433c;
   font-size: 20px;
+  
 }
 
+.stars{
+    position: absolute;
+    left: 7.4%;
+    top: 24%;
+    color: #50433c;
+    font-size: 25px;
+    
+}
 .enquireButton {
   position: absolute;
   left: 7.5%;
