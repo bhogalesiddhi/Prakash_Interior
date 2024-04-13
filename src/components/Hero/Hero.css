@@ -45,6 +45,23 @@
     font-size: 20px;
 }
 
+.enquireButton{
+    position: absolute;
+    left: 7.5%;
+    top: 62%;
+}
+
+.enquireStyle{
+    padding: 10px 20px;
+    font-size: 18px;
+    width: auto;
+    border: 2px solid  #50433c;
+    transition: background-color 0.3s ease; 
+    color: white;
+    background-color: #50433c;
+   
+}
+
 .heroImage {
     position: absolute;
     right: 23%;

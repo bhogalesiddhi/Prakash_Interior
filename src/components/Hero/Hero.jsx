@@ -21,6 +21,11 @@ const Hero = () => {
               <span>Discover bespoke interior designs that blend elegance with practicality</span>
               <span>tailored to enhance the vibrancy and comfort </span>
               <span>of modern city living.</span>
+              
+            </div>
+
+            <div className='enquireButton'>
+              <button className='enquireStyle'>Enquire Now</button>
             </div>
         </div>
         </div>
