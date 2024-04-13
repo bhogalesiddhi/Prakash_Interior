@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 
 const HeroContainer = styled.div`
-  background-image: url("https://www.aertsen.in/wp-content/uploads/2022/11/Stunning-Modern-Living-Room-Interior-Design-Ideas-in-India.jpg");
+  background-image: url("https://media.istockphoto.com/id/1007957982/photo/sofa-and-lamp-in-living-room-for-mockup-3d-rendering.jpg?s=612x612&w=0&k=20&c=ePS9CQpPDqXjPoKte5AaSEGvIKKHolSTNg4xJguNcMQ=");
   background-size: cover;
   background-position: center;
   height: 400px;
