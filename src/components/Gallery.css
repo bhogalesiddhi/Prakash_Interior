@@ -19,8 +19,9 @@
   transition: transform 0.3s ease;
 }
 
-h2 {
+.galleryHeading {
   margin: 20px;
+  text-align: center;
 }
 
 .gallery-photos img:hover {
@@ -36,7 +37,8 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin: 20px;
+  margin: 20px auto;
+  display: block;
 }
 
 .view-more-button:hover {

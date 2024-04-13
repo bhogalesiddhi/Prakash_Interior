@@ -5,7 +5,7 @@ import "./Gallery.css"; // Import your CSS file
 function Gallery() {
   return (
     <div className="gallery-container">
-      <h2>Gallery</h2>
+      <h2 className="galleryHeading">Gallery</h2>
       {/* Gallery Photos */}
       <div className="gallery-photos">
         {/* Display three photos in one row */}
