@@ -1,0 +1,46 @@
+.mainContainer{
+    display: flex;
+    height: calc(100vh - 60px);
+    display: relative;
+}
+
+.leftSide{
+    flex: 3;
+}
+
+.rightSide{
+    flex:2;
+    background-color: #ded5cc;
+}
+
+.quote{
+    font-size: 40px;
+    font-weight: bold;
+    color: #50433c;
+    
+}
+
+.quote1{
+    letter-spacing: 5px;
+}
+
+.quoteSection1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 7.5%;
+}
+
+.quoteSection2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 7.5%;
+    top: 48%;
+}
+
+.quoteSection2 span {
+    color: #50433c;
+    font-size: 20px;
+}
