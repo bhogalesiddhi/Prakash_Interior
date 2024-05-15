@@ -1,13 +1,13 @@
 import React from "react";
 import Categories from "./Category/Categories";
-import Footer from "./Footer/Footer";
-import Gallery from "./Gallery";
+import Gallery from "./Gallery/Gallery";
+import Hero from "./Hero/Hero";
 
 function Home() {
   return (
     <>
+      <Hero />
       <Categories />
-      <Footer />
       <Gallery />
     </>
   );

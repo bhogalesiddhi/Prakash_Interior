@@ -1,83 +1,123 @@
-.mainContainer{
-    display: flex;
-    height: calc(100vh - 60px);
-    display: relative;
+.mainContainer {
+  display: flex;
+  height: calc(100vh - 60px);
+  display: relative;
 }
 
-.leftSide{
-    flex: 3;
+.leftSide {
+  flex: 3;
 }
 
-.rightSide{
-    flex:2;
-    background-color: #ded5cc;
+.rightSide {
+  flex: 2;
+  background-color: #ded5cc;
 }
 
-.quote{
-    font-size: 40px;
-    font-weight: bold;
-    color: #50433c;
-    
+.quote {
+  font-size: 40px;
+  font-weight: bold;
+  color: #50433c;
 }
 
-.quote1{
-    letter-spacing: 5px;
+.quote1 {
+  letter-spacing: 5px;
 }
 
-.quoteSection1{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 30%;
-    left: 7.5%;
+.quoteSection1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 7.5%;
 }
 
-.quoteSection2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 7.5%;
-    top: 48%;
+.quoteSection2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 7.5%;
+  top: 48%;
 }
 
 .quoteSection2 span {
-    color: #50433c;
-    font-size: 20px;
+  color: #50433c;
+  font-size: 20px;
+  
 }
 
-.enquireButton{
+.stars{
     position: absolute;
-    left: 7.5%;
-    top: 62%;
+    left: 7.4%;
+    top: 24%;
+    color: #50433c;
+    font-size: 25px;
+    
+}
+.enquireButton {
+  position: absolute;
+  left: 7.5%;
+  top: 65%;
 }
 
-.enquireStyle{
-    padding: 10px 20px;
-    font-size: 18px;
-    width: auto;
-    border: 2px solid  #50433c;
-    transition: background-color 0.3s ease; 
-    color: white;
-    background-color: #50433c;
-   
+.enquireStyle {
+  padding: 10px 20px;
+  font-size: 18px;
+  width: auto;
+  border: 2px solid #50433c;
+  transition: background-color 0.3s ease;
+  color: white;
+  background-color: #50433c;
 }
 
 .heroImage {
-    position: absolute;
-    right: 23%;
-    top: 54%;
-    transform: translateY(-50%);
-    width: 300px; 
-    /* Adjust the width */
-    height: auto; /* Maintains aspect ratio */
-    border: 10px solid white;
+  position: absolute;
+  right: 23%;
+  top: 54%;
+  transform: translateY(-50%);
+  width: 300px;
+  /* Adjust the width */
+  height: auto; /* Maintains aspect ratio */
+  border: 10px solid white;
 }
 
-.heroImage2{
-    position: absolute;
-    transform: translateY(-50%);
-    right: 6%;
-    top: 54%;
-    width: 250px; 
-    border: 10px solid white;
+.heroImage2 {
+  position: absolute;
+  transform: translateY(-50%);
+  right: 6%;
+  top: 54%;
+  width: 250px;
+  border: 10px solid white;
+}
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+
+  .rightsideimg {
+    flex-direction: column;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links a {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    padding: 14px 16px;
+  }
+
+  .navbar-active .navbar-links {
+    display: flex;
+  }
 }
