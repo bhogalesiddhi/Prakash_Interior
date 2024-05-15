@@ -44,3 +44,17 @@
 .view-more-button:hover {
   background-color: #f0f0f0;
 }
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+  .gallery-photos {
+    grid-template-columns: repeat(2, 1fr); /* Display two photos in one row */
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .gallery-photos {
+    grid-template-columns: repeat(1, 1fr); /* Display one photo in one row */
+  }
+}
