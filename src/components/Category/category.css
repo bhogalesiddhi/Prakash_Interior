@@ -14,8 +14,9 @@
 .main_catgeory2 {
   display: flex;
   position: relative;
-  margin: 0px 20px 20px 20px;
+  margin: auto;
   flex-wrap: wrap;
+  width: 60vw;
   justify-content: space-between;
   padding: 0px 20px;
   text-align: center;
@@ -85,16 +86,10 @@
   }
 }
 
-@media (min-width: 310px) and (max-width: 805px) {
+@media (min-width: 310px) and (max-width: 1300px) {
   .main_catgeory2 {
     width: 100vw;
     justify-content: center;
   }
 }
 
-@media (min-width: 1061px) {
-  .main_catgeory2 {
-    width: 60vw;
-    margin: auto;
-  }
-}
