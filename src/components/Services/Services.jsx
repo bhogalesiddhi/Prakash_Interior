@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Services.css"; // Import your CSS file
-import NewNavbar from "./NewNavbar/NewNavbar";
+import NewNavbar from "../NewNavbar/NewNavbar";
 
 function Services() {
   const [selectedImage, setSelectedImage] = useState(null);

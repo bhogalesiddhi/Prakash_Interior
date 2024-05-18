@@ -14,7 +14,7 @@ function Gallery() {
         <img src="/images/photo3.jpeg" alt="interior" />
       </div>
       {/* Button to redirect to services page */}
-      <Link to="/services">
+      <Link to="/services" className="gallery-container">
         <button className="view-more-button">View More</button>
       </Link>
     </div>

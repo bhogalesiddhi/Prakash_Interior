@@ -40,6 +40,11 @@
   margin: 20px auto;
   display: block;
 }
+/* Gallery.css */
+
+.gallery-container{
+  text-decoration: none; /* Remove underline */
+}
 
 .view-more-button:hover {
   background-color: #f0f0f0;
