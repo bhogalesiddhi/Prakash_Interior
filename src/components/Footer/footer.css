@@ -55,3 +55,29 @@ ul li {
 a:hover {
   color: #ffd700;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .connect_with_us,
+  .company,
+  .support {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .connect_with_us {
+    margin: 40px 0;
+    padding-left: 0;
+  }
+
+  .company ul,
+  .support ul {
+    padding-left: 0;
+  }
+}
