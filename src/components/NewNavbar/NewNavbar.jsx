@@ -61,7 +61,7 @@ const NewNavbar = () => {
               <a href="/">Services</a>
             </li>
             <li>
-              <a href="/">Our Work</a>
+              <a href="/gallery">Gallery</a>
             </li>
             <li>
               <a href="/">Enquiry</a>
