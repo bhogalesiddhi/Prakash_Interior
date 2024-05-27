@@ -13,6 +13,8 @@
   background-color: #ded5cc;
 }
 
+
+
 .quote {
   font-size: 40px;
   font-weight: bold;
@@ -54,7 +56,7 @@
 .enquireButton {
   position: absolute;
   left: 7.5%;
-  top: 65%;
+  top: 62%;
 }
 
 .enquireStyle {
@@ -86,9 +88,39 @@
   width: 250px;
   border: 10px solid white;
 }
-@media screen and (max-width: 768px) {
-  .mainContainer {
-    flex-direction: column;
+@media screen and (max-width: 500px) {
+  
+ 
+
+  .enquireButton {
+    position: absolute;
+    left: 7.5%;
+    top: 69%;
+  }
+
+  .rightSide {
+    flex: 0;
+    background-color: white;
+  }
+
+  .heroImage {
+    position: none;
+    right: 0;
+    top: 0;
+    transform: 0;
+    width: 0;
+    /* Adjust the width */
+    height: 0; /* Maintains aspect ratio */
+    border: none;
+  }
+
+  .heroImage2 {
+    position: none;
+    transform: 0;
+    right: 0;
+    top: 0;
+    width: 0;
+    border: none;
   }
 
   .rightsideimg {

@@ -119,6 +119,7 @@ body {
   height: 60px;
   background-color: #fef7e5;
   position: relative;
+  z-index: 100;
 }
 
 .brand a {
@@ -127,6 +128,7 @@ body {
   text-decoration: none;
   color: #50433c;
   text-decoration: none;
+  padding-left: 20px;
 }
 
 .menu-icon {
