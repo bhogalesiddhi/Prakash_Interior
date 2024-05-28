@@ -55,16 +55,16 @@ const NewNavbar = () => {
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="/" className="link_option">Home</a>
             </li>
             <li>
-              <a href="/">Services</a>
+              <a href="/" className="link_option">Services</a>
             </li>
             <li>
-              <a href="/">Our Work</a>
+              <a href="/" className="link_option">Our Work</a>
             </li>
             <li>
-              <a href="/">Enquiry</a>
+              <a href="/" className="link_option">Enquiry</a>
             </li>
           </ul>
         </div>

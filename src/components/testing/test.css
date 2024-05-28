@@ -1,0 +1,20 @@
+.greeting {
+  background-color: aqua;
+}
+.articles {
+  background-color: blue;
+}
+.name {
+  background-color: yellow;
+}
+
+@media (max-width: 700px) {
+  .name {
+    background-color: rgb(255, 15, 15);
+  }
+}
+@media (max-width: 600px) {
+    .name {
+      background-color: grey;
+    }
+  }

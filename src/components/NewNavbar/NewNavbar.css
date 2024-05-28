@@ -101,10 +101,11 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #fcfcfc;
 }
-
+.navbar{
+  z-index: 100;;
+}
 .navbar-container {
   height: 100%;
-
   max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
@@ -127,12 +128,16 @@ body {
   text-decoration: none;
   color: #50433c;
   text-decoration: none;
+  padding-left: 20px;
 }
 
 .menu-icon {
   display: none;
 }
-
+/* .nav-elements{
+  position: relative;
+  right: 250px;
+} */
 .nav-elements ul {
   display: flex;
   justify-content: space-between;
@@ -151,21 +156,15 @@ body {
   padding: 15px;
 }
 
-.nav-elements ul a.active::after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #574c4c;
-}
-
 @media (max-width: 768px) {
   .nav-elements {
     flex-grow: 1;
     margin-left: auto;
     overflow: hidden;
+  }
+  .nav-elements{
+    position: relative;
+    right: 0px;
   }
 }
 
@@ -178,7 +177,7 @@ body {
 
   .nav-elements {
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 60px;
     background-color: #fef7e5;
     width: 0px;
@@ -199,5 +198,8 @@ body {
   .nav-elements ul li {
     margin-right: unset;
     margin-top: 22px;
+  }
+  .brand a {
+    padding-left: 20px;
   }
 }
