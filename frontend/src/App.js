@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Contact from "./components/Contact.jsx";
+import Contact from "./components/Contact/Contact.jsx";
 import Home from "./components/Home.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import NewNavbar from "./components/NewNavbar/NewNavbar.jsx";
