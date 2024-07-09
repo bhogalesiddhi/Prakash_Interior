@@ -7,6 +7,7 @@ import Hero from "./components/Hero/Hero.jsx";
 import NewNavbar from "./components/NewNavbar/NewNavbar.jsx";
 import Services from "./components/Services/Services.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import Location from "./components/location/Location.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/location" element={<Location />} />
           <Route></Route>
         </Routes>
         <Footer />
