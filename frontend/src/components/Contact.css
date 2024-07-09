@@ -1,0 +1,88 @@
+/* Contact.css */
+.contact-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #ded5cc;
+  display: flex;
+  flex-direction: column; /* Make the content stack vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section p:first-child {
+  font-size: 24px; /* Larger font size for the main title */
+  /* Add some space between the title and content */
+}
+
+.head1 {
+  color: #50433c;
+  margin-bottom: 30px;
+}
+
+.left-section p {
+  font-size: 16px; /* Smaller font size for the additional content */
+  color: #50433c;
+  text-align: center; /* Center the text */
+  max-width: 60ch;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #50433c;
+  border-radius: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+form:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+form p {
+  color: #50433c;
+  margin-left: 30%;
+  font-weight: bolder;
+}
+
+form label {
+  margin-top: 1rem;
+  color: #50433c;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+form input:focus,
+form textarea:focus {
+  border: 2px solid #ded5cc;
+}
+
+form input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #ded5cc;
+  color: #50433c;
+  border: none;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: bold;
+}
