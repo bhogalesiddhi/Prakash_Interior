@@ -15,7 +15,6 @@ function Services() {
 
   return (
     <div className="services-container">
-      <NewNavbar />
       <h2 className="serviceHeading">Our Work</h2>
 
       {/* Display all services and images */}
