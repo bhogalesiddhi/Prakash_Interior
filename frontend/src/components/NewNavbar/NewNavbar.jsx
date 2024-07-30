@@ -47,7 +47,9 @@ const NewNavbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="brand">
-          <a href="/">Prakash Interior</a>
+          <a href="/">
+            Prakash Interior
+          </a>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <FaBars />
@@ -55,13 +57,19 @@ const NewNavbar = () => {
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
             <li>
-              <a href="/" className="link_option">Home</a>
+              <a href="/" className="link_option">
+                Home
+              </a>
             </li>
             <li>
-              <a href="/" className="link_option">Services</a>
+              <a href="/" className="link_option">
+                Services
+              </a>
             </li>
             <li>
-              <a href="/gallery" className="link_option">Gallery</a>
+              <a href="/gallery" className="link_option">
+                Gallery
+              </a>
             </li>
             <li>
               <a href="/contact">Enquiry</a>

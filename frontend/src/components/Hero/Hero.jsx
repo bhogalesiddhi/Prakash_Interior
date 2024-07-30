@@ -6,25 +6,29 @@ const Hero = () => {
     <div className="main">
       <div className="mainContainer">
         <div className="leftSide">
-          <div className="quoteSection ">
+          <div className="quoteSection">
             <div className="stars">
               <span>★★★★</span>
             </div>
             <div className="quoteSection1 quote quote1">
-              <span>ELEGANT</span>
-              <span>INTERIORS</span>
+              <span>Experienced</span>
+              <span>Civil Construction Expert</span>
             </div>
             <div className="quoteSection2">
-              <span>
-                Discover bespoke interior designs that blend elegance with
-                practicality
+              <span className="highlight">
+                28 Years of Excellence
               </span>
-              <span>tailored to enhance the vibrancy and comfort </span>
-              <span>of modern city living.</span>
+              {/* <span>in Italian Marble and Marble Polishing</span>
+              <span>
+                Delivering top-notch construction services with a commitment to
+              </span>
+              <span>
+                quality and craftsmanship. 
+              </span> */}
+              
             </div>
-
             <div className="enquireButton">
-              <button className="enquireStyle">Enquire Now</button>
+              <button className="enquireStyle">Discover More</button>
             </div>
           </div>
         </div>
