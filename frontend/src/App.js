@@ -9,6 +9,11 @@ import Services from "./components/Services/Services.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Location from "./components/location/Location.jsx";
 
+import AboutUs from "./components/AboutUs/AboutUs.jsx";
+import StatsSection from "./components/StatsSection/StatsSection.jsx";
+
+import FeaturedProjects from "./components/FeaturedProjects/FeaturedProjects.jsx";
+
 function App() {
   return (
     <Router>
@@ -20,6 +25,10 @@ function App() {
           <Route path="/gallery" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/location" element={<Location />} />
+          
+          <Route path="/aboutUs" element={<AboutUs/>}></Route>
+          <Route path="/stats" element={<StatsSection/>}></Route>
+          <Route path="/works" element={<FeaturedProjects/>}/>
           <Route></Route>
         </Routes>
         <Footer />
