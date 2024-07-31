@@ -1,4 +1,5 @@
 .contact-container {
+  border-top: 1px solid #b6a99d;
   display: flex;
   height: 100vh;
 }
@@ -6,11 +7,9 @@
 .left-section {
   flex: 1;
   background-color: #ded5cc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
-  height: 100%;
+
+  position: relative;
 }
 
 .right-section {
@@ -75,17 +74,14 @@ form input[type="submit"] {
   text-align: center;
 }
 
-.box {
-  width: 80%;
-  height: 80%;
-  position: relative;
-}
-
 .map-container iframe {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify: center;
+  items: center;
   border: 0;
   position: absolute;
+  margin-left: 20%;
+  margin-top: 20%;
   top: 0;
   left: 0;
 }
