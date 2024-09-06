@@ -26,6 +26,7 @@ form {
   border: 2px solid #50433c;
   border-radius: 10px;
   transition: border-color 0.3s ease-in-out;
+  min-height: 450px;
 }
 
 form:hover {
@@ -41,6 +42,7 @@ form p {
 form label {
   margin-top: 1rem;
   color: #50433c;
+  margin-bottom: 5px;
 }
 
 form input,
@@ -50,6 +52,7 @@ form textarea {
   outline: none;
   border-radius: 5px;
   border: 1px solid rgb(220, 220, 220);
+  margin-bottom: 20px;
 }
 
 form input:focus,
