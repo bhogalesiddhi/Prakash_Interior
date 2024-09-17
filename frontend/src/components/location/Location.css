@@ -1,4 +1,4 @@
-.contact_heading {
+/* .contact_heading {
   letter-spacing: 1px;
   margin: 20px 0px;
   text-align: center;
@@ -12,14 +12,14 @@
   width: 60%;
   height: 50%;
   border: 0; /* Remove iframe border */
-}
-.contact_main {
+/* } */
+/* .contact_main {
   display: flex;
   justify-content: center;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16 = 0.5625) */
-  max-width: 100%;
-}
-
+  /* max-width: 100%; */
+/* } */ 
+/* 
 .contact_form {
-  background-color: #ded5cc;
-}
+  background-color: #ded5cc; */
+/* } */ 

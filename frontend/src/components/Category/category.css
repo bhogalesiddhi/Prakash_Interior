@@ -1,3 +1,25 @@
+.section-heading {
+  text-align: center;
+  margin-top: 50px; /* Add space from top */
+  margin-bottom: 30px; /* Add space below the heading */
+}
+
+.section-heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-heading h2 span {
+  color: #ffb300; /* Gold-like color for 'My' */
+}
+
+.underline {
+  width: 150px;
+  height: 6px;
+  background-color: #333;
+  margin: 0 auto; /* Ensure underline is centered */
+  margin-top: 1px; /* Add spacing above */
+}
 .maindiv {
   display: flex;
   flex-direction: column;
@@ -22,16 +44,16 @@
   text-align: center;
 }
 .categories {
-  border: 1px solid black;
+  border: 2px solid black;
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 12rem;
+  width: 14rem;
   height: 12rem;
   padding: 40px;
   margin: 20px 10px;
   line-height: 1.4;
-  background-color: #ded5cc;
+  background-color: #ded5cc; 
   border-radius: 50%;
 }
 

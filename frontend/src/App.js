@@ -13,12 +13,14 @@ import AboutUs from "./components/AboutUs/AboutUs.jsx";
 import StatsSection from "./components/StatsSection/StatsSection.jsx";
 
 import FeaturedProjects from "./components/FeaturedProjects/FeaturedProjects.jsx";
+import Nsection from "./components/Nsection/Nsection.jsx";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <NewNavbar />
+        {/* <NewNavbar /> */}
+        <Nsection/>
         <Routes>
           <Route path="/hero" element={<Hero />} />
           <Route path="/" element={<Home />} />

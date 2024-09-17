@@ -10,22 +10,18 @@ const Hero = () => {
             <div className="stars">
               <span>★★★★</span>
             </div>
-            <div className="quoteSection1 quote quote1">
+            <div className="quoteSection1 quoteold quote1">
+              {/* Typing Effect for these lines */}
               <span>Experienced</span>
               <span>Civil Construction Expert</span>
             </div>
             <div className="quoteSection2">
-              <span className="highlight">
-                28 Years of Excellence
-              </span>
+              <span className="highlight">28 Years of Excellence</span>
               <span>in Italian Marble and Marble Polishing</span>
               <span>
                 Delivering top-notch construction services with a commitment to
               </span>
-              <span>
-                quality and craftsmanship. 
-              </span>
-              
+              <span>quality and craftsmanship.</span>
             </div>
             <div className="enquireButton">
               <button className="enquireStyle">Discover More</button>

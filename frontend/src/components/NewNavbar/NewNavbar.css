@@ -13,7 +13,7 @@
   right: 20px;
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding:0 18px;
 }
 
 .navbar {
@@ -21,6 +21,7 @@
   background-color: #ded5cc;
   position: relative;
   z-index: 100;
+  padding: 30px;
 }
 
 .brand a {
@@ -46,15 +47,15 @@
 }
 
 .nav-elements ul a {
-  font-weight: 400;
+  font-weight: 600;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
   color: #50433c;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 .nav-elements ul li {
-  padding: 15px;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {

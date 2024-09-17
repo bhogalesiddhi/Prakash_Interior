@@ -1,0 +1,50 @@
+/* Navbar Container */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background: rgba(0, 0, 0, 0.6); /* Slightly transparent black */
+    color: white;
+    z-index: 10;
+  }
+  
+  /* Company Name */
+  .company-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 400px;
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+
+  }
+  
+  .nav-links a:hover {
+    color: #00FF00; /* Hover effect */
+  }
+  

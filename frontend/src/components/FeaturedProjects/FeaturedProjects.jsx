@@ -23,7 +23,10 @@ const works = [
 const FeaturedProjects = () => {
   return (
     <div className="featured-projects-container">
-      <h1 className="title">Featured Projects</h1>
+     <div class="section-heading">
+  <h2><span>Featured</span> Projects</h2>
+  <div class="underline"></div>
+  </div>
       <div className="cards-container">
         {works.map((work, index) => (
           <div key={index} className="card">

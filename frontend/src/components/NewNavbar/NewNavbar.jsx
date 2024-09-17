@@ -48,7 +48,7 @@ const NewNavbar = () => {
       <div className="navbar-container">
         <div className="brand">
           <a href="/">
-            Prakash Interior
+            PRAKASH INTERIOR
           </a>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
@@ -58,21 +58,21 @@ const NewNavbar = () => {
           <ul>
             <li>
               <a href="/" className="link_option">
-                Home
+                HOME
               </a>
             </li>
             <li>
-              <a href="/" className="link_option">
-                Services
+              <a href="#services-section" className="link_option">
+                SERVICES
               </a>
             </li>
             <li>
               <a href="/gallery" className="link_option">
-                Gallery
+                GALLERY
               </a>
             </li>
             <li>
-              <a href="/contact">Enquiry</a>
+              <a href="#contact-section">CONTACT</a>
             </li>
           </ul>
         </div>

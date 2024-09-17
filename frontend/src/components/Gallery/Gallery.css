@@ -1,8 +1,32 @@
+.section-heading {
+  text-align: center;
+  margin-top: 50px; /* Add space from top */
+  margin-bottom: 30px; /* Add space below the heading */
+}
+
+.section-heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-heading h2 span {
+  color: #ffb300; /* Gold-like color for 'My' */
+}
+
+.underline {
+  width: 150px;
+  height: 6px;
+  background-color: #333;
+  margin: 0 auto; /* Ensure underline is centered */
+  margin-top: 1px; /* Add spacing above */
+}
+
+
 .gallery-container {
-  background-color: #ded5cc;
+  background-color: #f9f9f9;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .gallery-photos {
@@ -13,11 +37,13 @@
 
 .gallery-photos img {
   width: 100%;
-  height: auto;
+  height: 200px; /* Set a fixed height if needed */
+  object-fit: cover; /* Ensure the images maintain their aspect ratio */
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
+
 
 .galleryHeading {
   margin: 20px;
@@ -29,10 +55,10 @@
 }
 
 .view-more-button {
-  background-color: white;
-  color: brown;
+  background-color: #50433c;
+  color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 20px;
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
@@ -47,8 +73,11 @@
 }
 
 .view-more-button:hover {
-  background-color: #f0f0f0;
+  background-color: #ffb300; /* Button hover effect */
+  color: #333; /* Change text color on hover */
+  transition: background-color 0.3s, color 0.3s ease; /* Smooth transition */
 }
+
 
 /* Media Query for Tablets */
 @media (max-width: 768px) {
