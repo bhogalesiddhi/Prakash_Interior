@@ -1,4 +1,5 @@
 .contact-container {
+  border-top: 1px solid #b6a99d;
   display: flex;
   height: 100vh;
 }
@@ -6,11 +7,9 @@
 .left-section {
   flex: 1;
   background-color: #ded5cc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
-  height: 100%;
+
+  position: relative;
 }
 
 .right-section {
@@ -27,6 +26,7 @@ form {
   border: 2px solid #50433c;
   border-radius: 10px;
   transition: border-color 0.3s ease-in-out;
+  min-height: 450px;
 }
 
 form:hover {
@@ -42,6 +42,7 @@ form p {
 form label {
   margin-top: 1rem;
   color: #50433c;
+  margin-bottom: 5px;
 }
 
 form input,
@@ -51,6 +52,7 @@ form textarea {
   outline: none;
   border-radius: 5px;
   border: 1px solid rgb(220, 220, 220);
+  margin-bottom: 20px;
 }
 
 form input:focus,
@@ -75,17 +77,14 @@ form input[type="submit"] {
   text-align: center;
 }
 
-.box {
-  width: 80%;
-  height: 80%;
-  position: relative;
-}
-
 .map-container iframe {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify: center;
+  items: center;
   border: 0;
   position: absolute;
+  margin-left: 20%;
+  margin-top: 20%;
   top: 0;
   left: 0;
 }
