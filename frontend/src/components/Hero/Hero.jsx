@@ -18,13 +18,13 @@ const Hero = () => {
               <span className="highlight">
                 28 Years of Excellence
               </span>
-              {/* <span>in Italian Marble and Marble Polishing</span>
+              <span>in Italian Marble and Marble Polishing</span>
               <span>
                 Delivering top-notch construction services with a commitment to
               </span>
               <span>
                 quality and craftsmanship. 
-              </span> */}
+              </span>
               
             </div>
             <div className="enquireButton">
