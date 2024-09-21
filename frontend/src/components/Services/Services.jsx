@@ -15,6 +15,7 @@ function Services() {
 
   return (
     <div className="services-container">
+      <br></br>
       <h2 className="serviceHeading">Our Work</h2>
 
       {/* Display all services and images */}
@@ -81,6 +82,27 @@ function Services() {
           onClick={() => handleImageClick("/images/photo9.jpeg")}
         >
           <img src="/images/photo9.jpeg" alt="Service 3" />
+        </div>
+
+        <div
+          className="service-image"
+          onClick={() => handleImageClick("/images/photo11.jpeg")}
+        >
+          <img src="/images/photo11.jpeg" alt="Service 3" />
+        </div>
+
+        <div
+          className="service-image"
+          onClick={() => handleImageClick("/images/photo12.jpeg")}
+        >
+          <img src="/images/photo12.jpeg" alt="Service 3" />
+        </div>
+
+        <div
+          className="service-image"
+          onClick={() => handleImageClick("/images/marblepolish2.jpeg")}
+        >
+          <img src="/images/marblepolish2.jpeg" alt="Service 3" />
         </div>
 
         {/* Add more images as needed */}
