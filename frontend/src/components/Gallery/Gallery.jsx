@@ -5,10 +5,12 @@ import "./Gallery.css"; // Import your CSS file
 function Gallery() {
   return (
     <div className="gallery-container">
-     <div class="section-heading">
-  <h2><span>Our</span> Gallery</h2>
-  <div class="underline"></div>
-</div>
+      <div class="section-heading">
+        <h2>
+          <span>Our</span> Gallery
+        </h2>
+        <div class="underline"></div>
+      </div>
       {/* Gallery Photos */}
       <div className="gallery-photos">
         {/* Display three photos in one row */}
@@ -18,6 +20,11 @@ function Gallery() {
         <img src="/images/photo4.jpeg" alt="interior" />
         <img src="/images/photo5.jpeg" alt="interior" />
         <img src="/images/photo6.jpeg" alt="interior" />
+        <img src="/images/photo11.jpeg" alt="interior" />
+        <img src="/images/photo12.jpeg" alt="interior" />
+        <img src="/images/marblepolish1.jpeg" alt="interior" />
+        {/* <img src="/images/marblepolish2.jpeg" alt="interior" /> */}
+        {/* <img src="/images/marblepolish3.jpeg" alt="interior" /> */}
       </div>
       {/* Button to redirect to services page */}
       <Link to="/gallery" className="gallery-container">
