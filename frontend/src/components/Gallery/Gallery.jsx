@@ -4,7 +4,7 @@ import "./Gallery.css"; // Import your CSS file
 
 function Gallery() {
   return (
-    <div className="gallery-container">
+    <div className="gallery-container main_all_container">
       <div class="section-heading">
         <h2>
           <span>Our</span> Gallery

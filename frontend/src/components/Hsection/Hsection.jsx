@@ -1,7 +1,5 @@
 import React from 'react';
 import './Hsection.css';
-
-
 const Hsection = () => {
   return (
     <div className="bgimg">
