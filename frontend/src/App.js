@@ -4,11 +4,11 @@ import "./App.css";
 import Contact from "./components/Contact/Contact.jsx";
 import Home from "./components/Home.jsx";
 import Hero from "./components/Hero/Hero.jsx";
-import NewNavbar from "./components/NewNavbar/NewNavbar.jsx";
+// import NewNavbar from "./components/NewNavbar/NewNavbar.jsx";
 import Services from "./components/Services/Services.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Location from "./components/location/Location.jsx";
-
+import "./index.css";
 import AboutUs from "./components/AboutUs/AboutUs.jsx";
 import StatsSection from "./components/StatsSection/StatsSection.jsx";
 
@@ -19,7 +19,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <NewNavbar /> */}
         <Nsection/>
         <Routes>
           <Route path="/hero" element={<Hero />} />
@@ -27,7 +26,7 @@ function App() {
           <Route path="/gallery" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/location" element={<Location />} />
-          
+
           <Route path="/aboutUs" element={<AboutUs/>}></Route>
           <Route path="/stats" element={<StatsSection/>}></Route>
           <Route path="/works" element={<FeaturedProjects/>}/>

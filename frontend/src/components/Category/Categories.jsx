@@ -4,11 +4,13 @@ import "./category.css";
 
 const Categories = () => {
   return (
-    <div className="maindiv"  id="services-section">
-          <div class="section-heading">
-  <h2><span>Our</span> Expertise</h2>
-  <div class="underline"></div>
-</div>
+    <div className="maindiv main_all_container" id="services-section">
+      <div class="section-heading">
+        <h2>
+          <span>Our</span> Expertise
+        </h2>
+        <div class="underline"></div>
+      </div>
       <div className="parentcategorydiv">
         <div className="main_category main_catgeory1">
           <div className="category1 categories">

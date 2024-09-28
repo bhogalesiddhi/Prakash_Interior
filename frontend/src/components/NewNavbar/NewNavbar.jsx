@@ -47,7 +47,8 @@ const NewNavbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="brand">
-          <a href="/">
+          <a href="/" className="logo-link">
+            <img src="/images/logo_pk.png" alt="Logo" className="logo" />
             PRAKASH INTERIOR
           </a>
         </div>
