@@ -58,7 +58,8 @@
 }
 
 @keyframes blink-caret {
-  0%, 100% {
+  0%,
+  100% {
     border-color: transparent; /* Hidden */
   }
   50% {
@@ -90,8 +91,8 @@
   font-weight: bold; /* Keeping the weight */
   margin-bottom: 7px; /* Space below the highlight text */
   color: white; /* Ensure the color is visible */
-  animation: typing 3s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
-
+  animation: typing 3s steps(40, end) forwards,
+    blink-caret 0.75s step-end infinite;
 }
 /* First line appears first */
 .quoteSection1 span:nth-child(1) {
@@ -112,4 +113,50 @@
   animation: typing 3s steps(40, end) forwards;
   animation-delay: 6s; /* Starts after the second line finishes */
   font-size: 50px;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .bgimg {
+    height: 80vh; /* Reduce height for smaller screens */
+    background-position: center top; /* Adjust background position */
+  }
+
+  .leftSide {
+    left: 50px; /* Reduce padding on the left */
+    top: 160px; /* Adjust vertical positioning */
+    max-width: 600px; /* Decrease max width */
+  }
+
+  .quoteSection1 span {
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .highlight {
+    font-size: 20px; /* Adjust highlight size */
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .bgimg {
+    height: 60vh; /* Further reduce height */
+    background-position: center top; /* Adjust for mobile */
+  }
+
+  .leftSide {
+    left: 20px; /* Further reduce left padding */
+    top: 140px; /* Adjust vertical position */
+    max-width: 90%; /* Take more space on smaller screens */
+  }
+
+  .quoteSection1 span {
+    font-size: 28px; /* Reduce font size for mobile */
+  }
+
+  .highlight {
+    font-size: 18px; /* Further reduce highlight size */
+  }
 }
